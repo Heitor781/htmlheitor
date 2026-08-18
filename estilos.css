@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: aqua;
+}
+
+.cabecalho {
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+}
+
+.cabecalho-link {
+  color: white; /* Alterado para branco para dar contraste com o fundo azul */
+  text-decoration: none;
+}
+
+main {
+  flex: 1;
+}
+
+h1 {
+  color: blue;
+}
+
+.cartao {
+  width: 260px;
+  height: 200px;
+}
+
+.cartao-imagem {
+  width: 100%;
+}
+
+footer {
+  background-color: blue;
+  color: white;
+  padding: 15px 25px;
+}
